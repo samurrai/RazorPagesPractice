@@ -1,0 +1,15 @@
+﻿@page
+@model InstagramCloneApp.Pages.RegistrationModel
+@{
+    ViewData["Title"] = "Registration";
+}
+
+<h1>Регистрация</h1>
+
+<div>
+    <form action="Registration" method="post">
+        <input type="text" placeholder="Ваш логин" name="login" />
+        <input type="password" name="password" placeholder="Ваш пароль" />
+        <submit>Зарегистрироваться</submit>
+    </form>
+</div>
